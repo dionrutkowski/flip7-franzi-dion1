@@ -1,6 +1,6 @@
 import { db } from "./firebase";
 import { doc, setDoc, onSnapshot, updateDoc } from "firebase/firestore";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RotateCcw, Trophy, Shield, Snowflake, Flame, Sparkles } from "lucide-react";
 import "./App.css";
